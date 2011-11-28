@@ -8,7 +8,7 @@ Homepage: http://github.com/rcbops
 Standards-Version: 3.9.1
 Vcs-Git: https://github.com/rcbops/nova-network-azmanager-buildpackage.git
 Vcs-Browser: http://github.com/rcbops/nova-network-azmanager-buildpackage
-XCBS-RCB-Component: diablo-final
+XCBS-RCB-Component: diablo-d5
 
 Package: nova-network-azmanager
 Architecture: all
