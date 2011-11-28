@@ -1,0 +1,18 @@
+Source: nova-network-azmanager
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Maintainer: RCB Builder <rcb-deploy@lists.rackspace.com>
+Bugs: mailto:rcb-deploy@lists.rackspace.com
+Homepage: http://github.com/rcbops
+Standards-Version: 3.9.1
+Vcs-Git: https://github.com/rcbops/nova-network-azmanager-buildpackage.git
+Vcs-Browser: http://github.com/rcbops/nova-network-azmanager-buildpackage
+XCBS-RCB-Component: diablo-final
+
+Package: nova-network-azmanager
+Architecture: all
+Depends: ${misc:Depends}, python-nova
+Description: Network manager for vlan-per-az network manager
+ Basically a mix-and-match of nova-vlan and dhcp-manager to allow
+ vlan-per-availability-zone.

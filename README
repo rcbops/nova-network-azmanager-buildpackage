@@ -1,0 +1,22 @@
+To use this manager, add the following flag:
+--network_manager=nova.network.azmanager.AZDHCPManager
+
+To put a host into an availability zone, just start the services
+(compute and network specifically) with:
+--node_availability_zone=<zone>
+
+You can create a network for each availability zone, just set the
+label of the network to be the same as the availability zone.
+
+For example:
+
+nova-manage network create az1 10.0.0.0/24 1 256
+nova-manage network create az2 10.0.1.0/24 1 256
+
+you should be able to launch in different zones with:
+
+nova boot --availability_zone <zone>
+
+(note there is no way to specify availability zone when using the
+dashboard)
+

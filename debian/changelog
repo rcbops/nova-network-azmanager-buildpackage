@@ -1,0 +1,5 @@
+nova-network-azmanager (1.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 28 Nov 2011 15:26:22 -0600
