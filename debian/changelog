@@ -1,3 +1,9 @@
+nova-network-azmanager (1.1) unstable; urgency=low
+
+  * Convert to complete setuptools install, bump version
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Fri, 02 Dec 2011 15:36:55 -0600
+
 nova-network-azmanager (1.0) unstable; urgency=low
 
   * Initial release.

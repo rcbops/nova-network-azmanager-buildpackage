@@ -1,0 +1,2 @@
+include README
+include lib/nova/network/azmanager.py

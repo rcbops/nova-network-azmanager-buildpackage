@@ -1,3 +1,9 @@
 #!/usr/bin/make -f
+
+# Verbose mode
+#export DH_VERBOSE=1
+
+DEB_PYTHON_SYSTEM=pysupport
+
 %:
-	dh $@
+	dh $@ --with python2
