@@ -6,4 +6,4 @@
 DEB_PYTHON_SYSTEM=pysupport
 
 %:
-	dh $@ --with python2
+	dh $@

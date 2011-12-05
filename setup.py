@@ -32,5 +32,6 @@ setup(
     include_package_data=True,
     packages=find_packages('lib'),
     package_dir = {'': 'lib'},
-    namespace_packages=['nova', 'nova.network']
+    namespace_packages=['nova', 'nova.network'],
+    py_modules=[]
 )
