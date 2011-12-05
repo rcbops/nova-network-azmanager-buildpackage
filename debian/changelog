@@ -1,3 +1,9 @@
+nova-network-azmanager (1.5) unstable; urgency=low
+
+  * add postinst to bytecompile python
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 05 Dec 2011 14:51:08 -0600
+
 nova-network-azmanager (1.4) unstable; urgency=low
 
   * fix rules to stop dropping stuffin dist-packages
