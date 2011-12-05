@@ -1,3 +1,9 @@
+nova-network-azmanager (1.3) unstable; urgency=low
+
+  * Back out the node_init stuff, as was unrequired
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 05 Dec 2011 13:12:20 -0600
+
 nova-network-azmanager (1.2) unstable; urgency=low
 
   * Update to choose AZ properly
